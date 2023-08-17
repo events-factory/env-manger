@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs').promises;
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
@@ -110,56 +110,56 @@ router.put('/:projectName/env', authMiddleware, async (req, res) => {
 });
 
 
-router.post('/login', async (req, res) => {
-  const {
-    username,
-    password
-  } = req.body;
+// router.post('/login', async (req, res) => {
+//   const {
+//     username,
+//     password
+//   } = req.body;
 
-  try {
-    const users = JSON.parse(await fs.readFile(path.resolve(__dirname, '..', 'database', 'users.json'), 'utf-8'));
-    if (!users) {
-      res.status(401).json({
-        message: 'Invalid credentials.'
-      });
-    }
+//   try {
+//     const users = JSON.parse(await fs.readFile(path.resolve(__dirname, '..', 'database', 'users.json'), 'utf-8'));
+//     if (!users) {
+//       res.status(401).json({
+//         message: 'Invalid credentials.'
+//       });
+//     }
 
-    const user = users.find(user => user.username === username);
+//     const user = users.find(user => user.username === username);
 
-    if (!user) {
-      res.status(401).json({
-        message: 'Invalid credentials.'
-      });
-    }
+//     if (!user) {
+//       res.status(401).json({
+//         message: 'Invalid credentials.'
+//       });
+//     }
 
-    const isPasswordValid = await bcrypt.compare(password, user.password);
-    if (!isPasswordValid) {
-      res.status(401).json({
-        message: 'Invalid credentials.'
-      });
-    }
+//     const isPasswordValid = await bcrypt.compare(password, user.password);
+//     if (!isPasswordValid) {
+//       res.status(401).json({
+//         message: 'Invalid credentials.'
+//       });
+//     }
 
-    const token = jwt.sign({
-      user: {
-        username: user.username
-      }
-    }, process.env.SECRET_KEY, {
-      expiresIn: '1h'
-    });
+//     const token = jwt.sign({
+//       user: {
+//         username: user.username
+//       }
+//     }, process.env.SECRET_KEY, {
+//       expiresIn: '1h'
+//     });
 
-    res.status(200).json({
-      message: 'Login successful.',
-      username: user.username,
-      token
-    });
+//     res.status(200).json({
+//       message: 'Login successful.',
+//       username: user.username,
+//       token
+//     });
 
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({
-      message: 'An error occurred during login.'
-    });
-  }
-});
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).json({
+//       message: 'An error occurred during login.'
+//     });
+//   }
+// });
 
 router.post('/logout', authMiddleware,(req, res) => {
     res.sendStatus(200);
