@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs').promises;
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+require('dotenv').config();
 
 const authMiddleware = require('./authMiddleware');
 
