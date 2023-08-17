@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   createProjectButton.addEventListener("click", async function() {
     Swal.fire({
-      title: 'Submit your Github username',
+      title: 'Enter project name',
       input: 'text',
       inputAttributes: {
         autocapitalize: 'off'
@@ -35,6 +35,14 @@ document.addEventListener("DOMContentLoaded", function() {
       showCancelButton: true,
       confirmButtonText: 'Submit',
       showLoaderOnConfirm: true,
+      inputValidator: (value) => {
+        if (!value) {
+          return 'You need to write something!'
+        }
+        if (!/^[a-zA-Z0-9- ]*$/.test(value)) {
+          return 'Special characters are not allowed.'
+        }
+      },
       preConfirm: async (projectName) => {
         try {
           const response = await fetch(`/api/project`, {
@@ -99,13 +107,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const projects = await response.json();
     handleFetchResponse(response);
     projectList.innerHTML = '';
-    // check if projects is an array
     if (Array.isArray(projects)) {
       projects.forEach(async project => {
         const projectElement = document.createElement("div");
         projectElement.className = "project";
         projectElement.innerHTML = `
-                  <h2>${project.name}</h2>
+                  <h2 class="text-capitalize">${project.name.replace(/-/g, ' ')}</h2>
                   <button class="btn btn-primary text-white createEnvButton" data-project="${project.name}">Create .env</button>
                   <button class="btn btn-info text-white readEnvButton" data-project="${project.name}">Read .env</button>
               `;

@@ -12,7 +12,7 @@ const router = express.Router();
 const tokenBlacklist = new Set();
 
 router.post('/', authMiddleware, async (req, res) => {
-  const projectName = req.body.projectName;
+  const projectName = req.body.projectName.trim().replace(/[^a-z0-9]/gi, '-').toLowerCase()
   const projectPath = path.join(__dirname, '..', 'projects', projectName);
 
   try {
