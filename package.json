@@ -1,12 +1,14 @@
 {
-  "name": "project-manager",
+  "name": "dummy-imbank",
   "version": "1.0.0",
-  "description": "A simple project manager web application",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/app.js",
-    "start:dev": "nodemon server/app.js"
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
