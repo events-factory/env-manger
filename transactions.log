@@ -1,0 +1,230 @@
+2023-07-24T13:12:51.469Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:12:51.470Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:13:26.179Z [ERROR]: Error while finding user: WHERE parameter "username" has invalid "undefined" value
+2023-07-24T13:14:45.690Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:14:45.692Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:14:48.870Z [INFO]: User malaika logged in.
+2023-07-24T13:31:36.660Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:31:36.661Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:32:10.032Z [ERROR]: User username not found.
+2023-07-24T13:32:10.034Z [ERROR]: Error while finding user: Cannot read property 'password' of null
+2023-07-24T13:33:49.699Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:33:49.700Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:33:50.895Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:33:50.896Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:33:52.586Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:33:52.587Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:33:58.852Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:33:58.854Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:34:01.914Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:34:01.915Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:34:05.290Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:34:05.291Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:34:11.592Z [ERROR]: User username not found.
+2023-07-24T13:34:12.232Z [ERROR]: User username not found.
+2023-07-24T13:35:23.309Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:35:23.311Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:35:24.043Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:35:24.045Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:35:29.865Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:35:29.866Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:35:32.157Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:35:32.158Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:36:24.991Z [ERROR]: User username not found.
+2023-07-24T13:36:26.076Z [ERROR]: User username not found.
+2023-07-24T13:36:37.677Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:36:37.678Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:36:38.571Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:36:38.573Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:36:42.242Z [ERROR]: User username not found.
+2023-07-24T13:36:42.242Z [ERROR]: Error while finding user: Cannot read property 'password' of null
+2023-07-24T13:36:59.265Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:36:59.267Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:37:01.633Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:37:01.634Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:37:03.701Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:37:03.703Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:37:05.829Z [ERROR]: User username not found.
+2023-07-24T13:37:06.938Z [ERROR]: User username not found.
+2023-07-24T13:37:59.616Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:37:59.617Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:38:09.857Z [ERROR]: User username not found.
+2023-07-24T13:38:53.516Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:38:53.517Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:39:00.474Z [ERROR]: User username not found.
+2023-07-24T13:39:35.234Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:39:35.235Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:40:15.150Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:40:15.151Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:40:19.911Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:40:19.912Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:41:19.257Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:41:19.258Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:41:21.192Z [INFO]: HTTP server is running on port 3001
+2023-07-24T13:41:21.193Z [INFO]: HTTPS server is running on port 3002
+2023-07-24T13:41:23.718Z [ERROR]: User username not found.
+2023-07-24T13:41:24.988Z [ERROR]: User username not found.
+2023-07-24T13:41:25.665Z [ERROR]: User username not found.
+2023-07-24T13:41:27.705Z [ERROR]: User username not found.
+2023-07-25T11:13:30.197Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:13:30.198Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:00.381Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:00.382Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:03.250Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:03.251Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:38.948Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:38.949Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:40.585Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:40.586Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:41.784Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:41.785Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:44.522Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:44.523Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:47.485Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:47.486Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:16:52.303Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:16:52.305Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:17:40.810Z [INFO]: User malaika logged in.
+2023-07-25T11:19:17.829Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:19:17.830Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:19:35.355Z [INFO]: User malaika logged in.
+2023-07-25T11:19:36.486Z [INFO]: User malaika logged in.
+2023-07-25T11:19:49.728Z [INFO]: HTTP server is running on port 3008
+2023-07-25T11:19:49.729Z [INFO]: HTTPS server is running on port 3002
+2023-07-25T11:19:53.621Z [INFO]: User malaika logged in.
+2023-07-27T15:18:29.079Z [INFO]: HTTP server is running on port 3008
+2023-07-27T15:18:29.080Z [INFO]: HTTPS server is running on port 3002
+2023-08-08T07:41:38.587Z [ERROR]: Unable to connect to the database: ORA-01017: invalid username/password; logon denied
+2023-08-08T07:49:59.169Z [ERROR]: Unable to connect to the database: ORA-01017: invalid username/password; logon denied
+2023-08-08T07:50:54.105Z [ERROR]: Unable to connect to the database: ORA-01017: invalid username/password; logon denied
+2023-08-08T07:51:16.182Z [INFO]: HTTP server is running on port 3008
+2023-08-08T07:51:16.183Z [INFO]: HTTPS server is running on port 3002
+2023-08-08T07:54:18.998Z [ERROR]: Unable to connect to the database: ORA-01017: invalid username/password; logon denied
+2023-08-08T07:54:40.543Z [INFO]: HTTP server is running on port 3008
+2023-08-08T07:54:40.544Z [INFO]: HTTPS server is running on port 3002
+2023-08-08T08:03:48.276Z [INFO]: HTTP server is running on port 3008
+2023-08-08T08:03:48.277Z [INFO]: HTTPS server is running on port 3002
+2023-08-08T08:06:24.591Z [INFO]: HTTP server is running on port 3008
+2023-08-08T08:06:24.592Z [INFO]: HTTPS server is running on port 3002
+2023-08-08T08:06:35.797Z [INFO]: HTTP server is running on port 3008
+2023-08-08T08:06:35.799Z [INFO]: HTTPS server is running on port 3002
+2023-08-08T08:07:05.906Z [ERROR]: Error while creating credit accounts: creditAccounts is not iterable
+2023-08-08T08:11:48.516Z [ERROR]: Error while creating credit accounts: creditAccounts is not iterable
+2023-08-08T08:12:44.915Z [INFO]: User administrator logged in.
+2023-08-08T08:16:15.864Z [INFO]: Credit account 593412700910118/FRW  created successfully.
+2023-08-08T08:16:15.872Z [INFO]: Credit account 400406395610169/FRW created successfully.
+2023-08-08T08:16:15.872Z [INFO]: Credit accounts created successfully.
+2023-08-08T08:16:15.872Z [INFO]: Credit accounts count: 2
+2023-08-08T08:16:15.872Z [INFO]: User BPR created successfully.
+2023-08-10T08:02:05.734Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:02:05.735Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:07:21.270Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:07:21.271Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:07:36.574Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:07:36.576Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:07:53.809Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:07:53.812Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:08:30.745Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:08:30.746Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:08:57.540Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:08:57.542Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:09:14.390Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:09:14.391Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:09:24.704Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:09:24.705Z [INFO]: Transaction: null
+2023-08-10T08:11:04.293Z [INFO]: HTTP server is running on port 3008
+2023-08-10T08:11:04.295Z [INFO]: HTTPS server is running on port 3002
+2023-08-10T08:11:09.109Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:11:09.109Z [INFO]: Transaction: null
+2023-08-10T08:11:14.423Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:11:14.424Z [INFO]: Transaction: null
+2023-08-10T08:12:37.540Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:12:37.541Z [INFO]: Transaction: null
+2023-08-10T08:12:49.828Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:12:49.829Z [INFO]: Transaction: null
+2023-08-10T08:13:23.736Z [ERROR]: User malaika not found.
+2023-08-10T08:13:41.444Z [ERROR]: User malaika not found.
+2023-08-10T08:15:27.539Z [ERROR]: Unable to connect to the database: NJS-007: invalid value for "password" in parameter 1
+2023-08-10T08:18:08.836Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:18:08.837Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:19:50.220Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:19:50.221Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:20:00.881Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:20:00.882Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:20:17.484Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:20:17.485Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:20:19.982Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:20:19.983Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:20:25.515Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:20:25.516Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:20:55.359Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:20:55.361Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:21:08.858Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:21:08.859Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:21:10.561Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:21:10.562Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:21:20.526Z [INFO]: Transaction retrieved successfully.
+2023-08-10T08:21:20.527Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:21:46.292Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:21:46.294Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:21:49.295Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:21:49.296Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:21:49.296Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is CONFIRMED successfully.
+2023-08-10T08:22:13.854Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:22:13.855Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:22:13.855Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:23:36.294Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:23:36.295Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:23:36.296Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:25:23.514Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:25:23.516Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:25:36.698Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:25:36.699Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:25:48.808Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:25:48.810Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:25:52.174Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:25:52.174Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:25:52.174Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:26:26.191Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:26:26.193Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:26:26.193Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:26:54.483Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:26:54.484Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:27:14.435Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:27:14.436Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:27:18.338Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:27:18.339Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:27:21.362Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:27:21.363Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:27:21.364Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:27:31.721Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:27:31.722Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:27:43.176Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:27:43.177Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:27:45.418Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:27:45.420Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:31:32.074Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:31:32.076Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:31:35.345Z [INFO]: Transaction with TX774365454BPRSNN is undefined.
+2023-08-10T08:31:35.345Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:31:35.345Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:31:59.323Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:31:59.324Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:32:02.301Z [INFO]: Transaction with TX774365454BPRSNN is REJECTED.
+2023-08-10T08:32:02.301Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:32:02.301Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:32:45.283Z [INFO]: HTTP server is running on port 3009
+2023-08-10T08:32:45.284Z [INFO]: HTTPS server is running on port 3010
+2023-08-10T08:32:51.191Z [INFO]: Transaction with TX774365454BPRSNN is REJECTED.
+2023-08-10T08:32:51.192Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:32:51.192Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:32:53.667Z [INFO]: Transaction with TX774365454BPRSNN is REJECTED.
+2023-08-10T08:32:53.667Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:32:53.668Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is REJECTED successfully.
+2023-08-10T08:33:20.724Z [INFO]: Transaction with TX774365454BPRSNN is FAILED.
+2023-08-10T08:33:20.725Z [INFO]: Transaction: [object SequelizeInstance:TransactionList]
+2023-08-10T08:33:20.725Z [INFO]: malaika Action: Transaction with ID TX774365454BPRSNN is FAILED successfully.
+2023-08-10T08:40:13.757Z [INFO]: User malaika logged in.
+2023-08-10T08:46:08.606Z [INFO]: User MTN logged in.
+2023-08-17T14:47:08.785Z [INFO]: HTTP server is running on port 3009
+2023-08-17T14:47:08.786Z [INFO]: HTTPS server is running on port 3010
