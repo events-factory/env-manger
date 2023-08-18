@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project Manager</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header class="bg-dark text-white py-4 mb-5">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <h1 class="mt-4">.Env Manager</h1>
+      </div>
+      <div>
+        <div id="userProfile" class="d-flex align-items-center mt-2">
+          <p class="avatar" id="avatar"></p>
+          <div>
+            <p class="m-0" id="userName"></p>
+            <button id="logoutButton" class="btn btn-link m-0 p-0 text-danger">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div style="text-align: right;">
+        <button id="createProjectButton" class="btn btn-primary mt-3">Create Project</button>
+    </div>
+    <div id="projectList" class="mt-3"></div>
+    <div id="envModal" class="modal">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modaltitle"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <textarea id="envContent" class="form-control"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button id="updateEnvButton" class="btn btn-primary">Update .env</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="sweetalert2.js"></script>
+  <script type="module" src="script.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
