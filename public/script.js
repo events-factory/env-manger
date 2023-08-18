@@ -113,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
         projectElement.className = "project";
         projectElement.innerHTML = `
                   <h2 class="text-capitalize">${project.name.replace(/-/g, ' ')}</h2>
+                  <p class="text-muted">Path: <code>${project.path}</code></p>
                   <button class="btn btn-primary text-white createEnvButton" data-project="${project.name}">Create .env</button>
                   <button class="btn btn-info text-white readEnvButton" data-project="${project.name}">Read .env</button>
               `;

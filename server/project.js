@@ -32,7 +32,8 @@ router.get('/', authMiddleware, async (req, res) => {
   try {
     const projectNames = await fs.readdir(path.join(__dirname, '..', 'projects'));
     const projects = projectNames.map(name => ({
-      name
+      name,
+      path: path.join(__dirname, '..', 'projects', name, '.env')
     }));
     res.json(projects);
   } catch (error) {
@@ -131,13 +132,6 @@ router.post('/login', async (req, res) => {
         message: 'Invalid credentials.'
       });
     }
-
-    // const isPasswordValid = await bcrypt.compare(password, user.password);
-    // if (!isPasswordValid) {
-    //   res.status(401).json({
-    //     message: 'Invalid credentials.'
-    //   });
-    // }
 
     bcrypt.compare(password, user.password, (err, result) => {
       if (err) {
