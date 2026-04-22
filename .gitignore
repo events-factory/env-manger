@@ -2,3 +2,10 @@ node_modules
 database
 projects
 .env
+
+# --- env files (ensure-env-gitignored.sh) ---
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
